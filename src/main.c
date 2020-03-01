@@ -12,9 +12,19 @@
 
 #ifdef __MAIN__
 
-int main(char* argv, int argc) {
-    printf("Hallo C-Language!\n");
+/**
+ * Hauptprogramm main()
+ */
+int main(char argv[], int argc) {
+
+    // Einfache Ausgabe einer Zeichenkette
+    printf("HELLO C-Language!\n");
+
+    // Aufruf einer Funktion aus Modul basictypes.h
     basictypes_main();
+
+    // Return value
+    return 0;
 }
 
 #endif
